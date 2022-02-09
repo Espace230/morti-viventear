@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Morti Viventear</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="hidden"> -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="apple-mobile-web-app-title" content="Morti Viventear">
 </head>
@@ -118,9 +118,13 @@
 	}
 
 	a:hover {
-		color: #fcfcfc;
+		color: #595959;
 		/* border: 1px solid #222; */
 
+	}
+
+	.link-profile {
+		font-weight: 600;
 	}
 
 	.link-profile:hover {
@@ -171,9 +175,11 @@
 
 	.footer {
 		text-align: center;
-		margin-top: 3em;
-		font-size: 0.875em;
-		font-weight: 500;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		font-size: 0.925em;
+		/* font-size: 0.875em; */
+		font-weight: 600;
 	}
 
 	.profile-picture {
@@ -190,8 +196,8 @@
 		text-align: center;
 		/* padding: 1.25em 1.25em 0 1.25em; */
 		padding: 1em 1.25em 0 1.25em;
-
 		font-weight: 500;
+		/* font-size: 1.1em; */
 		color: #222;
 	}
 
@@ -204,7 +210,8 @@
 <body>
 	<img src="./assets/profile-picture.jpg" alt="profile picture" class="profile-picture">
 	<div class="profile-name">
-		<a target="_blank" class="link-profile" style="font-weight:600" href="https://www.instagram.com/mortiviventear/">@mortiviventear</a>
+		<a target="_blank" class="link-profile" href="https://www.instagram.com/mortiviventear/">Morti Viventear</a>
+		<!-- <a target="_blank" class="link-profile" href="https://www.instagram.com/mortiviventear/">@mortiviventear</a> -->
 		<p style="font-weight:500">Montréal-based producer, record/tape collector and keeper of the Funk.</p>
 	</div>
 	<a class="button button-inverted" target="_blank" href="https://www.youtube.com/watch?v=CEs4cgM6iBg&list=PLGTc3FzmR-beEkKP03KdO4yO9UJ2mW2fa"><i class="icon-youtube"></i>&nbsp;&nbsp;Remixes</a>
@@ -220,6 +227,10 @@
 	<!-- <a class="button" target="_blank" href="#">New Album</a> -->
 	<!-- <a target="_blank" href="#" class="button">Merch</a> -->
 
+	<!-- <div class="footer">Contact me: -->
+	<div class="footer">
+		<a target="_blank" class="link-profile" href="mailto:info@mortiviventear.ca">info@mortiviventear.ca</a>
+	</div>
 	<!-- <div class="footer">Copyright © 2022 Morti Viventear</div> -->
 	<br />
 </body>
